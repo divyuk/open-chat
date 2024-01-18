@@ -1,11 +1,10 @@
 {
-  "type": "module",
   "name": "open-chat",
   "version": "1.0.0",
   "description": "A real time chat application",
-  "main": "index.js",
+  "main": "./src/server.ts",
   "scripts": {
-    "dev": "nodemon  src/server.ts"
+    "dev": "nodemon"
   },
   "author": "",
   "license": "ISC",
