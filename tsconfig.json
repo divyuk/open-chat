@@ -14,7 +14,8 @@
     },
     "skipLibCheck": true,
     "lib": ["es6"],
-    "allowJs": true
+    "allowJs": true,
+    "strictPropertyInitialization": false
   },
   "ts-node": {
     "esm": true
