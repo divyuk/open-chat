@@ -3,7 +3,7 @@ import { Express } from "express";
 
 export function setupApp(app: Express): void {
   // Define your routes and middleware here
-  app.get("/", (req, res) => {
+  app.get("/api/v1", (req, res) => {
     res.send("Hello, World!");
   });
 
