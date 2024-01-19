@@ -8,3 +8,5 @@ const catchAsyn =
       next(error);
     }
   };
+
+export default catchAsyn;
