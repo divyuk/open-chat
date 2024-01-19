@@ -7,5 +7,6 @@ export function setupApp(app: Express): void {
     res.send("Hello, World!");
   });
 
-  // Add more routes and middleware as needed
+  // 👤 User Routes
+  app.use("/api/v1/users", userRouter);
 }
