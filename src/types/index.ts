@@ -10,3 +10,8 @@ export type CustomError = {
   success: boolean;
   stack: string;
 };
+
+export type ErrorMap = {
+  field: String;
+  message: String;
+};
