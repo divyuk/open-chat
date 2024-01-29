@@ -1,6 +1,6 @@
 import { registerUserSchema } from "@src/schema/userSchema";
 import { validationErrors } from "@src/utils/schemaError";
-import { NextFunction } from "express";
+import { Request, Response, NextFunction } from "express";
 import { z } from "zod";
 
 function createValidationMiddleware(
