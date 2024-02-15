@@ -15,3 +15,5 @@ export type ErrorMap = {
   field: String;
   message: String;
 };
+
+export const DbName = "openChat";
